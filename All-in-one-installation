@@ -95,8 +95,8 @@ https://digitalavenue.dev/Install-SonarQube-On-Ubuntu-Debian/
   sudo curl -O https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.5.0.107428.zip 
  unzip sonarqube-25.5.0.107428.zip
   sudo apt-get install unzip
-  sudo unzip sonarqube-8.3.0.34182.zip -d /opt/
-  sudo mv /opt/sonarqube-8.3.0.34182/ /opt/sonarqube
+  sudo unzip sonarqube-25.5.0.107428.zip -d /opt/
+  sudo mv /opt/sonarqube-25.5.0.107428 /opt/sonarqube
   cd /opt/sonarqube/
   sudo groupadd sonar
   sudo useradd -c "SonarQube - User" -d /opt/sonarqube/ -g sonar sonar
